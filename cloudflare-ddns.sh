@@ -18,8 +18,9 @@ for ((i = 0; i < $result_count; ++i)); do
 
   dns_record_id=$(echo $cloudflare_result | jq -r ".result[$i].id")
   zone_name=$(echo $cloudflare_result | jq -r ".result[$i].name")
+  current_IP=$(echo $cloudflare_result | jq -r ".result[$i].content")
 
-  if [[ $(echo ${excluded_subdomains[@]} | fgrep -w $zone_name) ]]; then
+  if [[ $(echo ${excluded_subdomains[@]} | fgrep -w $zone_name) ]] || [[ "$IP" == "$current_IP"; then
     continue
   fi
 
