@@ -8,3 +8,10 @@ Script will update all records in a zone unless listed in `excluded_subdomains` 
 
 If multiple records with the same name exist, script fails to update one of them. `"code":81058`.
 
+### API Token
+
+Create a token at [https://dash.cloudflare.com/profile/api-tokens](https://dash.cloudflare.com/profile/api-tokens)
+
+Use Edit zone DNS Template and select a specific Zone in Zone Resources.
+
+The script is made to work with Bearer token. 
