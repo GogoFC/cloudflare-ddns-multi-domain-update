@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Domains to exclude from update. Separated by whitespace.
-excluded_subdomains=()
+excluded_subdomains=(subdomain.domain.com sf.domain.com)
 zone_id=ZONE_ID_REQUIRED
 token=Bearer_TOKEN_REQUIRED
 IP=$(curl ip.me)
