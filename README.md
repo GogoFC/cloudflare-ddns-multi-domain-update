@@ -1,6 +1,6 @@
 # Cloudflare DDNS Update Script
 
-Bash script written for Linux.
+### Bash script written for Linux.
 
 Updates DDNS records for multiple subdomains in a zone via Cloudflare API.
 
