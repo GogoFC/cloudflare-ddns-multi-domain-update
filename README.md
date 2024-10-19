@@ -1,2 +1,3 @@
-# cloudflare-ddns-multi-domain-update
-Cloudflare API
+# Cloudflare DDNS
+
+Update DDNS records for multiple subdomains via Cloudflare API
