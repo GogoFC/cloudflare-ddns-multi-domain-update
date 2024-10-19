@@ -2,7 +2,7 @@
 
 Bash script written for Linux.
 
-Updates DDNS records for multiple subdomains via Cloudflare API.
+Updates DDNS records for multiple subdomains in a zone via Cloudflare API.
 
 Script will update all records in a zone unless listed in `excluded_subdomains` array.
 
