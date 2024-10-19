@@ -6,7 +6,7 @@ zone_id=ZONE_ID_REQUIRED
 token=Bearer_TOKEN_REQUIRED
 IP=$(curl ip.me)
 
-# DNS Record Details
+# GET DNS Record Details
 cloudflare_result=$(curl --request GET \
   --url https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records \
   --header 'Content-Type: application/json' \
