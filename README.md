@@ -16,7 +16,7 @@ Use Edit zone DNS Template and select a specific Zone in Zone Resources.
 
 The script is made to work with Bearer token. 
 
-# Cron
+### Cron
 
 Script is meant to be ran as a Cron job.
 
