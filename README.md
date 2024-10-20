@@ -4,7 +4,7 @@
 
 Bash script written for Linux to dynamically update multiple DNS records in a single Zone.
 
-Script will update all records in a zone unless listed in `excluded_subdomains` array.
+Script will update all records in a zone except those listed in `excluded_subdomains` array.
 
 If multiple records with the same name exist, script fails to update one of them. `"code":81058`.
 
