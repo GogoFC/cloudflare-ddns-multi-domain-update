@@ -1,8 +1,8 @@
-# Cloudflare DDNS Update Script
+# Cloudflare API DNS Update Script
 
-### Bash script written for Linux.
+### DDNS
 
-Updates DDNS records for multiple subdomains in a zone via Cloudflare API.
+Bash script written for Linux to dynamically update multiple DNS records in a single Zone.
 
 Script will update all records in a zone unless listed in `excluded_subdomains` array.
 
@@ -19,4 +19,3 @@ The script is made to work with Bearer token.
 ### Cron
 
 Script is meant to be ran as a Cron job.
-
