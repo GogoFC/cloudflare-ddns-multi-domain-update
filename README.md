@@ -14,7 +14,7 @@ Create a token at [https://dash.cloudflare.com/profile/api-tokens](https://dash.
 
 Use Edit zone DNS Template and select a specific Zone in Zone Resources.
 
-The script is made to work with Bearer token. 
+Script uses a Bearer token. 
 
 ### Cron
 
